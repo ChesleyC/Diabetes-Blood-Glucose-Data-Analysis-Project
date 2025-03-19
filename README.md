@@ -1,3 +1,22 @@
+### Project Overview
+
+1. Readme.md
+
+2. Overview of requirement
+- time series project requirements english.txt
+- /data/
+
+3. Overview of result
+- output_file_description.txt
+- project_report.md
+- /output/data/
+- /output/figures/
+
+4. Dive into the implementation
+- /src/
+- /main.py
+
+
 ### Project Structure
 
 ```
