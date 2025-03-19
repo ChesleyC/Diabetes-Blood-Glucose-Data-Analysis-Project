@@ -1,0 +1,17 @@
+The task needs to analyze time-series data. Following is a publicly available dataset and its corresponding paper (optional). 
+
+dataset: https://figshare.com/articles/dataset/Diabetes_Datasets-ShanghaiT1DM_and_ShanghaiT2DM/20444397?file=38259264
+
+paper: https://www.nature.com/articles/s41597-023-01940-7 
+
+This dataset contains blood glucose level throughout the day while their eating events are marked from type 1 and type 2 diabetes participants.
+
+1) Create a dataframe for each user. 
+2) Generally, you'll see blood glucose levels spike after meals in this data; demonstrate this visually with plots.
+3) For a single user: from all their daily data, determine the rate at which blood glucose spikes and drops after a meal. How does this change with the type of meal, i.e., the difference between breakfast, lunch, and dinner?
+4) Now, group users based on whether they have type 1 or type 2 diabetes. Can you identify any patterns in the rate? What do you find interesting or not interesting here? For example, individuals with type 1 diabetes are known to require a longer time to normalize their blood glucose levels compared to those with type 2 diabetes. Do you see that in this dataset?
+5) Create a simple machine learning model that predicts how long it will take for blood glucose levels to return to normal at each mealtime. Don't worry about the complexity of the model; instead, focus on your intuition about which features could be useful. You can use a linear model. Use the dataframe's create in step 1), train this model on {N-1} users and test on the {N}th user, iterate this till all users are covered. We call this Leave-one-subject-out cross-validation in literature.
+
+Notes: Create your own definitions in places that are vague (for example, what does it mean by a spike?). 
+
+Need to demonstrate how to handle the data at the circumstances out of the given questions, and show the thought process.

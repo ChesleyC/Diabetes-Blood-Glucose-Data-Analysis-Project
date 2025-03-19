@@ -1,0 +1,14 @@
+Output File Description
+Data Files
+
+all_meal_events.csv: All extracted meal event data, including pre-meal glucose, peak glucose, rise rate, recovery time, and other metrics
+meal_results_t1dm_1001.csv: Detailed post-meal analysis results for T1DM patient #1001
+diabetes_type_comparison.csv: Comparative analysis of post-meal glucose responses between T1DM and T2DM patients
+cross_validation_results.csv: Cross-validation results of the prediction model
+
+Image Files
+
+daily_glucose_t1dm_1001.png: Daily glucose curve chart for T1DM patient #1001
+meal_types_comparison.png: Comparison chart of glucose responses for different meal types
+diabetes_types_comparison.png: Comparison chart of glucose responses for different diabetes types
+feature_importance.png: Bar chart showing feature importance in the prediction model
